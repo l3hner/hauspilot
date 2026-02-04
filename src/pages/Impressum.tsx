@@ -18,21 +18,21 @@ export function Impressum() {
         <div className="prose prose-slate max-w-none">
           <h2>Angaben gemäß § 5 TMG</h2>
           <p>
-            [Ihr Name / Firmenname]<br />
-            [Straße und Hausnummer]<br />
-            [PLZ Ort]
+            Jonas Lehner<br />
+            Amselweg 10<br />
+            89520 Heidenheim
           </p>
 
           <h2>Kontakt</h2>
           <p>
-            Telefon: [Ihre Telefonnummer]<br />
-            E-Mail: [Ihre E-Mail-Adresse]
+            E-Mail: jonaslehner7@gmail.com
           </p>
 
           <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
           <p>
-            [Name des Verantwortlichen]<br />
-            [Adresse]
+            Jonas Lehner<br />
+            Amselweg 10<br />
+            89520 Heidenheim
           </p>
 
           <h2>EU-Streitschlichtung</h2>
