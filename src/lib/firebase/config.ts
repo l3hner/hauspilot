@@ -3,15 +3,15 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || 'demo-api-key',
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'demo.firebaseapp.com',
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || 'demo-project',
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'demo.appspot.com',
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '000000000',
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || '1:000:web:000',
+  apiKey: 'AIzaSyD2BshXy2kr4WuVdaSho7EZfI4GLNuzMT4',
+  authDomain: 'hauspilo.firebaseapp.com',
+  projectId: 'hauspilo',
+  storageBucket: 'hauspilo.firebasestorage.app',
+  messagingSenderId: '438290006756',
+  appId: '1:438290006756:web:a3cf76f2bbb65461f4a2f1',
 }
 
-export const isFirebaseConfigured = !!import.meta.env.VITE_FIREBASE_API_KEY
+export const isFirebaseConfigured = true
 
 const app = initializeApp(firebaseConfig)
 
