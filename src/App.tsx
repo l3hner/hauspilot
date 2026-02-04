@@ -25,7 +25,7 @@ import { AGB } from '@/pages/AGB'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/hauspilot">
       <AuthProvider>
         <ProjectProvider>
           <TooltipProvider>
